@@ -1,7 +1,9 @@
 # baidu_ife_task001
 #百度前端技术学院第一阶段第八个任务响应式网格（栅格化）布局
 页面展示地址：http://dannisi.github.io/baidu_ife_task001/task08/
+
 该任务总结：
+
 1.注意清除浮动。每一行使用伪类选择器before和after来清除浮动。
 .row:before, 
 .row:after {
