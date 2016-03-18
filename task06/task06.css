@@ -1,0 +1,343 @@
+*{
+	margin:0;padding:0;font-family: "微软雅黑";
+}
+
+#main{
+	width:980px;
+	height:1386px;
+	margin:5px auto;
+}
+#header{
+	width:892px;
+	height:61px;
+	margin:0 auto;
+	border-bottom: 2px solid #938e88;
+}
+#header span{
+	font-size:12px;
+	font-family: "黑体";
+	display: block;
+}
+#header span:first-child{
+	width:110px;
+	height:61px;
+	color:#fff;
+	background-color: #d45d5c;
+	padding:42px 0 0 4px;
+	-webkit-box-sizing:border-box;
+	   -moz-box-sizing:border-box;
+	     -o-box-sizing:border-box;
+	    -ms-box-sizing:border-box;
+	        box-sizing:border-box;
+}
+#header span:last-child{
+    width:892px;
+	color: #d45d5c;
+	text-align: right;
+	margin-top:-19px;
+}
+#container{
+	width:892px;
+    margin:40px auto;
+}
+.top-left{
+	width:641px;
+	height:312px;
+	position: relative;
+	overflow: hidden;
+}
+.top-left img{
+	width:100%;
+	height:100%;
+	position: absolute;
+}
+.top-left .cover{
+	width:191px;
+	height:312px;
+    position: absolute;
+    opacity: 0.3;   
+}
+.top-left .cover1{
+	background-color: #42e278;
+	left:0;
+}
+.top-left .cover2{
+	background-color: #dc8078;
+	right:0;
+}
+.top-right{
+	width:203px;
+	height:312px;
+	margin:0 auto;
+	margin-right: 0px;
+	margin-top:-309px;
+	border-top:2px solid #ca69b8;
+}
+.top-right p span{
+	font-size: 30px;
+}
+.top-right p:nth-child(1),.top-right p:nth-child(2){
+	
+	font-variant: small-caps;
+   font-size: 20px;
+   text-decoration: underline;
+}
+.top-right p:nth-child(1){  
+   margin-top: 4px;
+}
+.top-right p:nth-child(3){
+	font-size: 12px;
+	color: #676767;
+	font-family: "楷体";
+	font-style: italic;
+}
+.top-right p:nth-child(4){
+	font-size: 116px;
+	color: #75b86b;
+	margin-top: -10px;
+}
+.top-right p:nth-child(5){
+    margin-top: -12px;
+    font-size: 55px;
+    color: #cc8091;
+}
+.top-right .leftcss{
+	font-size: 12px;
+	margin-top: -54px;
+	margin-left: 80px;
+}
+.top-right .leftcss span{
+	font-size: 21px;
+	color:#cc8091;
+}
+#middle{
+	width:641px;
+	margin-top:20px;
+	height:240px;
+}
+#middle .txt{
+	float: left;	
+	width:calc(100%/3-10px);
+}
+#middle .txt1,.txt2{
+	padding-right: 20px;
+}
+#middle .txt>p{
+	font-size: 16px;
+	text-decoration: underline;
+	margin-bottom: -10px;
+}
+#middle .txt1 p{
+	color:#418c59;
+}
+
+#middle .txt2 p{
+	color:#d2994f;
+}
+#middle .txt3>p{
+	color:#cc9680;
+}
+#middle .txt span{
+	font-size: 12px;
+	color: #767777;
+	font-family: "宋体";
+}
+#middle .txt3 .txt4{
+   margin-top: 30px;
+}
+#middle .txt3 .txt4 p{
+	font-size: 12px;
+	color: #231815;	
+    line-height: 32px;
+}
+#middle .txt3 .txt4 span{
+	color:#cd4a48;
+}
+#bottom{
+	width:892px;
+	margin-top:40px;
+}
+#bottom #left{
+	width:450px;
+	float: left;
+	margin-right: 15px;	
+}
+#bottom #left .left-top p{
+	color:#11456b;
+	font-family: "黑体";
+	border-bottom: 2px solid #11456b;
+	padding-bottom: 5px;
+
+}
+#bottom #left .left-top p span:nth-child(1){
+	font-size: 70px;
+	color:#f5e327;
+}
+#bottom #left .left-top p span:nth-child(2){
+	font-size: 40px;
+	color:#11456b;
+	line-height:16px;
+	margin-left: 5px;
+}
+#bottom #left .left-top p span:last-child{
+	font-size:33px;
+	color:#11456b;
+}
+#bottom #left .left-bottom{
+	margin-top:10px;
+}
+#bottom #left .left-bottom p{
+	font-size: 12px;
+	color: #767777;
+	font-family: "宋体";
+	margin-top: 2px;
+	margin-left: 2px;
+}
+#bottom #left .left-bottom span:nth-child(1){
+	font-size: 75px;
+	color:#f5e327;
+}
+#bottom #left .left-bottom .span{
+	margin-left: 85px;
+	width:100%;
+	margin-top:-95px;
+}
+#bottom #left .left-bottom .span span{
+	font-size: 12px;
+	color: #767777;
+	font-family: "宋体";
+	line-height: 0;
+}
+#bottom #left .left-bottom .txt{
+	float:left;
+}
+
+#bottom #left .left-bottom .image img{
+   width:165px;
+   height:289px;
+   margin-left: 24px;
+   margin-top: 15px;
+   margin-bottom: 30px;
+}
+#bottom #left .left-bottom p:nth-child(3){
+	margin-top: -20px;
+}
+#bottom #right{
+	width:100%;
+    margin-left: 465px;
+}
+#right .image3 img{
+	width:427px;
+	height:275px;
+	margin-top: 20px;
+}
+#bottom #right .image3 p{
+	width:427px;
+	height:61px;
+	margin-top: -64px;
+	background-color: #000;
+	opacity:0.5;	
+}
+#bottom #right .image3 p span:first-child{
+	color:#fff;
+	font-size: 26px;
+	line-height: 61px;
+	margin-left: 20px;
+	height:44px;
+	border-left: 3px solid #7261ba;
+	padding-left: 10px;
+}
+#bottom #right .image3 p span:last-child{
+	color:#72b16a;
+	font-size: 12px;
+	line-height: 61px;
+}
+#bottom #right .right-bottom{
+	width:427px;
+	height:318px;
+	background-color: #eafecf;
+	margin-top: 42px;
+}
+#bottom #right .right-bottom .right-bot{
+	padding-top: 20px;	
+}
+#bottom #right .right-bottom .right-bot p{
+	margin-left: 20px;
+	font-size: 16px;
+	color: #5a5b5b;
+	font-family: "宋体";
+	line-height: 32px;	
+}
+#bottom #right .right-bottom .right-bot1{
+	padding-top: 20px;
+}
+#bottom #right .right-bottom .right-bot1 #rightbot1{
+
+	background-color: #d45d5c;
+	height:180px;
+	line-height: 180px;
+	float: left;
+
+}
+ .right-bottom .right-bot1 #rightbot1 p:nth-child(1){
+	font-size: 110px;
+	color: white;
+
+
+}
+ .right-bottom .right-bot1 #rightbot1 p:nth-child(1):after{
+	content: "";
+	display: inline-block;
+	width:0;
+	height:86px;
+	border:2px solid #fff;
+	margin-left: 5px;
+}
+.right-bottom .right-bot1 #rightbot1 p:nth-child(2){
+  color: #fff;
+  font-size: 18px;
+  font-family: "黑体";
+  line-height: 24px;
+  margin-left: 80px;
+  margin-top: -132px;
+}
+.right-bottom .right-bot1 #rightbot1 p:nth-child(3){
+  color: #fff;
+  font-size: 14px;
+  font-family: "黑体";
+ padding-right: 10px;
+  margin-top: 12px;
+  margin-left: 80px;
+  line-height: 12px;
+}
+#bottom #right .right-bottom .right-bot1 #rightbot2{
+	width:260px;
+	margin-left: 260px;
+}
+#bottom #right .right-bottom .right-bot1 #rightbot2 span{
+	font-size: 60px;
+	color:#d4565c;
+	font-family: "黑体";
+	margin-left: -30px;
+}
+#bottom #right .right-bottom .right-bot1 #rightbot2 span:nth-child(2){
+	font-size: 14px;
+	color: #5a5b5b;
+	font-family: "黑体";
+}
+#bottom #right .right-bottom .right-bot1 #rightbot2 span:nth-child(3){
+	margin-left: 70px;
+}
+#footer{
+	width:892px;
+	border-top:1px solid #938e8c;
+	margin:15px auto;
+}
+#footer p{
+
+	text-align: right;
+	color: #d4565c;
+	font-size: 12px;
+	font-family: "黑体";
+
+}
