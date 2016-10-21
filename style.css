@@ -199,8 +199,8 @@ li:nth-child(3){
 .singleImg img {
     width: 30%;
     height: 20%;
-    padding-right: 5%;
-    max-width: 128px;
+/*     padding-right: 5%; */
+    min-width: 111px;
 }
 .article_img{
 	width: 100%;
