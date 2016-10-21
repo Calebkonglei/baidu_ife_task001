@@ -166,6 +166,7 @@ li:nth-child(3){
 	justify-content:center;
 	padding-right: 8px;
 	margin-left: 10px;
+	box-sizing:border-box;
 }
 .smallImg_box img{
 	width:32%;
