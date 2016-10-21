@@ -174,14 +174,14 @@ li:nth-child(3){
 	display: flex;
 	width: 100%;
 	justify-content:center;
-	padding-right: 10px;
-	margin-left:8px;
+	padding-right: 4px;
+/* 	margin-left:8px; */
 	box-sizing:border-box;
 }
 .smallImg_box img{
 	width:32%;
 	height:17%;
-	padding:0 5px 0 0px;
+	padding:0 1px 0 0px;
 }
 .singleImg{
 	width:100%;
