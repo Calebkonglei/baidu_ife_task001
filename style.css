@@ -187,7 +187,7 @@ li:nth-child(3){
 	width:100%;
 	display: flex;
 	flex-direction:row;
-	padding: 0 14px 0 10px;
+	padding: 0 0px 0 10px;
 }
 .singleImg h4{
 	width:60%;
