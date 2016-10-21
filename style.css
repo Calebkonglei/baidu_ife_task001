@@ -190,15 +190,15 @@ li:nth-child(3){
 	padding: 0 14px 0 10px;
 }
 .singleImg h4{
-	width:70%;
-	margin-right: 4px;
+	width:60%;
+/* 	margin-right: 4px; */
 	color:#6B6B6B;
 	letter-spacing: 2px;
 }
 .singleImg img {
     width: 40%;
     height: 20%;
-    padding-right: 7%;
+    padding-right: 5%;
     max-width: 300px;
     min-width: 138px;
 }
