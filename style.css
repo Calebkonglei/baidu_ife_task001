@@ -34,13 +34,13 @@ ul li{
     height: 150px;
 }
 li:nth-child(1){
-    background-color: red;
+    background-color: #ccc;
 }
 li:nth-child(2){
-    background-color: blue;
+    background-color: #ccc;
 }
 li:nth-child(3){
-    background-color: yellow;
+    background-color: #ccc;
 }
 
 .banner-controller{
